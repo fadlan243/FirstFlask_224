@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Nama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h2>Silahkan Masukkan Nama</h2>
+
+    <form method="POST">
+        <input type="text" name="nama" placeholder="Nama kamu" required>
+        <button type="submit">Lanjut</button>
+    </form>
+</div>
+
+</body>
+</html>
